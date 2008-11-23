@@ -1,0 +1,20 @@
+How to setup SQL-Ledger for reporting
+
+= Introduction =
+
+All thats required is for the relevant BAS codes G1,G11,G14 etc to be linked to the appropriate COA
+
+
+= Details =
+
+ Add the relevant bas code as a GIFI code to each Chart.  
+
+ enter (G1) as the GIFI code for  Sales
+
+ * (G11) Purchases
+ * (G11)(G14) Purchases - FRE   
+ * (W1) Wages
+
+
+Because G14 is included in the G11 total its important to have both codes.
+The bas code must be UPPER CASE and be enclosed in ()  like (G1)
