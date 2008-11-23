@@ -1,0 +1,15 @@
+#Installation instructions.
+
+= Introduction =
+
+Copy the files to suitable directories
+Edit the config files
+
+
+= Details =
+
+Simply copy the ozbas.html and the *.js files to a directory accessable via the webserver
+Copy the ozbasJSON.cgi and SL_connect.py file to a cgi-bin directory
+
+ Edit SL_connect.py - configure with the postgresql db username 
+ Edit ozbas-config.js - update the cgi path if required
